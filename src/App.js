@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import CardList from './CardList';
 import { cats } from './Cats';
 import Searchbar from './Searchbar';
+import './App.css';
 
 class App extends Component {
     constructor() {
@@ -22,7 +23,7 @@ class App extends Component {
         return (
 
             <div className="tc">
-                <h1>CatFriends</h1>
+                <h1 className='f-subheadline measure'>CatFriends</h1>
                 <Searchbar onSearchChange={this.onSearchChange} />
                 <CardList cats={filteredCats} />
             </div>
