@@ -21,7 +21,7 @@ export const cats = [
     },
     {
         id: 4,
-        name: "Someone",
-        email: "someone@gmail.com"
+        name: "Tinku",
+        email: "tinku@gmail.com"
     }
 ]
